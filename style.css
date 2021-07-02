@@ -14,9 +14,8 @@ html, body{
     transform: scaleX(-1);
     /*filter: FlipH;*/
 }
-#camera--trigger{
+#camera--trigger, #camera-photo-save {
     width: 200px;
-    background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 30px;
@@ -27,6 +26,12 @@ html, body{
     position: fixed;
     bottom: 30px;
     left: calc(50% - 100px);
+}
+#camera--trigger {
+  background-color: black;
+}
+#camera-photo-save {
+  background-color: green;
 }
 .taken{
     height: 100px!important;
