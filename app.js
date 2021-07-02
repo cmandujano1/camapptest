@@ -30,7 +30,8 @@ cameraTrigger.onclick = function() {
 // Download image
 photoSave.onclick = function(){
 	var pic = cameraOutput.src.replace("image/png", "image/octet-stream");
-	window.location.href=pic;
+	window.location.href = pic;
+	photoSave.style.display = "none";
 };
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
