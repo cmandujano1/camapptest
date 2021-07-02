@@ -5,7 +5,7 @@ const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
     cameraTrigger = document.querySelector("#camera--trigger"),
-	photoSave = document.getElementByID("camera-photo-save");
+	photoSave = document.getElementById("camera-photo-save");
 // Access the device camera and stream to cameraView
 function cameraStart() {
     navigator.mediaDevices
